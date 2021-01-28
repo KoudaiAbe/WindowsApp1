@@ -1,6 +1,6 @@
 ﻿Public Class Form1
 
-
+    'メッセージ
     Private Sub btn_Click(sender As Object, e As EventArgs) Handles btn.Click
 
         '変数を使うパターン
@@ -15,12 +15,14 @@
         'MsgBox("hello")
     End Sub
 
+    '色変更
     Private Sub color_Click(sender As Object, e As EventArgs) Handles coler.Click
 
         Me.BackColor = Color.Crimson
 
     End Sub
 
+    '計算
     Private Sub calcPlus_Click(sender As Object, e As EventArgs) Handles calc_plus.Click
 
         On Error Resume Next
